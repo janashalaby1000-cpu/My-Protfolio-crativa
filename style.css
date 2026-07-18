@@ -114,20 +114,6 @@ body {
   font-size: 20px;
 }
 
-button {
-  background:  #802b2b;
-  color: #fff;
-  border: none;
-  padding: 12px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 6px;
-}
-
-button:hover {
-  background:rgb(138, 30, 30);
-}
-
 .social-footer i {
   font-size: 18px;
   color: #fff;
@@ -141,10 +127,6 @@ button:hover {
        display: inline-block;
        transition: background 0.3s, transform 0.3s;
 }
-.b:hover {
-    transform:translatex(-2px);
-}
-/* fix broken hover transform */
 .b:hover {
   transform: translateX(-2px);
 }
@@ -538,7 +520,6 @@ button:hover {
   scroll-margin-top: 120px;
   margin-top: 200px;
   margin-bottom: 90px;
-  font-size: 10px;
 }
 
 .contact-grid {
